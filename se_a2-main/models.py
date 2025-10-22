@@ -4,7 +4,7 @@ class User:
     def __init__(self, user_id: int, name: str, username: str, password: str):
         self.id = user_id
         self.name = name
-        self.username = username
+        self.username = usernamekk
         self.password = password  
 
     def login(self, password: str) -> bool:
