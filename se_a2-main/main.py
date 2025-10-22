@@ -6,7 +6,7 @@ def student_menu(system, student):
         print("1. Request Hours Confirmation")
         print("2. View Accolades")
         print("3. View Leaderboard")
-        print("4. Logout")
+        print("4. Logout")kkkk
         choice = input("Enter choice: ")
 
         if choice == "1":
