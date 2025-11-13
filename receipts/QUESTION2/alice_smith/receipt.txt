@@ -1,0 +1,23 @@
+USERNAME: Owner
+DATE: Thu 10/02/2025 14:01:33.82
+
+--- BILLING RECEIPT --- 
+ XYZ Shop
+Port of Spain, Trinidad
+Ph. : 100 - 1000
+
+==========================
+              BILLING RECEIPT           
+
+==========================
+Product     Qty    Price    Subtotal 
+----------------------------------------------
+Apples        1.00  $   7.00   $   7.00
+Oranges      3.00  $   9.00   $  27.00
+Bananas      5.00  $   2.00   $  10.00
+----------------------------------------------
+TOTAL                                      $  44.00
+==========================
+
+     THANK YOU FOR SHOPPING @ XYZ Shop
+---------------------- 
