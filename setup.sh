@@ -51,11 +51,8 @@ export FLASK_APP=main.py
 python -m flask init || echo "flask init returned non-zero (if your app doesn't implement it, ignore)"
 
 echo
-echo "Setup complete. To run the app locally (development):"
-echo "  cd $SCRIPT_DIR/$DEST"
-echo "  source venv/bin/activate"
-echo "  python -m flask run"
+echo "Setup complete. Starting application with gunicorn..."
 echo
-echo "To run with gunicorn (production-like):"
-echo "  source venv/bin/activate"
-echo "  gunicorn main:app -b 0.0.0.0:8000 --workers 3"
+
+# Run the app with gunicorn as required by the assignment
+gunicorn main:app -b 0.0.0.0:8000 --workers 3

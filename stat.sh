@@ -36,8 +36,8 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 BACKUP="$DIR/Backup"
 if [ -d "$BACKUP" ]; then
   DATE=$(date +%d%m%Y)
-  ARCHIVE="$DIR/${DATE}.tar.gz"
-  tar -czf "$ARCHIVE" -C "$DIR" "$(basename "$BACKUP")"
+  ARCHIVE="$DIR/${DATE}.tar"
+  tar -cf "$ARCHIVE" -C "$DIR" "$(basename "$BACKUP")"
   rm -rf "$BACKUP"
 fi
 EOF
