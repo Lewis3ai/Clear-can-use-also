@@ -1,0 +1,74 @@
+ubmission Instructions
+For Question 1, 3 & 4: Upload the scripts directly to the submission box. No zipping, no
+folders or subfolders.
+For Question 2: Upload the zip file, which contains all the directories, and files.
+The University of the West Indies, St. Augustine
+Department of Computing and Information Technology
+INFO 3601 Assignment 1 – 10%
+Due: 03/10/2025 Friday; 5:00 p.m.
+Question 1: Windows Batch exercise
+Create a “setup.bat” script file that creates a “Library” folder in the Documents directory
+with the following folders and files. (Note: this script should work regardless of its location
+in the filesystem and the currently logged in user)
+a. About.md should contain “Alma Jordan Library”
+b. Algorithm.txt should contain “Operating Systems Concepts by Abraham Silberschatz”.
+[5 marks]
+Question 2: Windows Automation
+Create the following structure of customers and their data files data.txt. Each data.txt file contains
+6 integers representing quantities and prices for apples, bananas and oranges purchased by the
+customer.
+C:\USERS\SNICK\DESKTOP\QUESTION2
+¦
++---alice_smith
+¦ data.txt
++---bob_jones
+¦ data.txt
++---carol_clark
+ data.txt
+A) Implement a c program named billing.c and compile it into calc.exe that takes 3 quantities
+and 3 prices of the products as input, prints the bill of items and totals. Both files should
+be in the root of the question2 folder.
+Example:
+Input: 1 3 5 7 9 2
+Output:
+XYZ Shop
+Port of Spain, Trinidad
+Ph. : 100 - 1000
+==========================
+ BILLING RECEIPT
+==========================
+Product Qty Price Subtotal
+----------------------------------------------
+Apples 1.00 $ 7.00 $ 7.00
+Oranges 3.00 $ 9.00 $ 27.00
+Bananas 5.00 $ 2.00 $ 10.00
+----------------------------------------------
+TOTAL $ 44.00
+==========================
+ THANK YOU FOR SHOPPING @ XYZ Shop
+B) Implement a receipts.bat batch script in the root folder so it executes calc.exe for each
+customer using each of their data.txt file and creating a receipt.txt file in their folder
+containing the output of calc.exe as well as the currently logged in username and date on
+top. An example of receipt.txt is shown below.
+USERNAME should be currently logged user and date & hour should be system date &
+time. Submit receipts.zip, it should contain all the directories and files.
+[10 marks]
+Question 3: Linux project deployment Script
+Create a script “setup.sh” to automate the deployment of a flask application. The script must
+install all software dependencies such as:
+1. Python3
+2. Pip3
+3. Git
+Use git to clone this repository.
+Install dependencies
+Initialize the database (instructions in readme)
+Run the with gunicorn
+[5 marks]
+Question 4: Linux Automation
+Write a script “stat.sh” that will do the following:
+1. Ask for a file name and remove the input file that was provided.
+2. Before removing, backup the file in the Backup folder.
+3. Everyday at 5 p.m., backup all the files in Backup folder as one compressed file (should be
+named using system date like DDMMYYYY.tar or DDMMYYYY.zip) and remove the Backup
+folder.
+[10 marks]
